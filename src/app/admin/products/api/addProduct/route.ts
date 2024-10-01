@@ -1,7 +1,7 @@
 import { connectToDatabase } from "@/app/lib/db/connect";
 import { Product } from "@/app/lib/model/product";
 import { NextRequest, NextResponse } from "next/server";
-import { saveImageMetadata } from "../../addProducts/api/uploadImage/route";
+import { saveImageMetadata } from "../../addProducts/api/saveImageData";
 
 export async function POST(req: NextRequest) {
   await connectToDatabase();
