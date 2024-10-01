@@ -6,7 +6,6 @@ import { useProducts } from "@/context/productContext";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useState, ChangeEvent, FormEvent, useEffect } from "react";
-import { saveImageMetadata } from "./api/uploadImage/route";
 
 // type FormData = Omit<ProductTypes, "_id">;
 const ProductForm: React.FC = () => {
